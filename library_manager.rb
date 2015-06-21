@@ -13,6 +13,9 @@ class LibraryManager
   # - пеня в центах
   def penalty price, issue_datetime
     # решение пишем тут
+    # penalty = 0,001*price*(now_datetime_in hours-issue_datetime_in hours)
+    # if penalty < 0 then penalty = 0
+    # end
 
 
 
